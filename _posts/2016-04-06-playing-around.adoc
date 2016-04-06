@@ -1,0 +1,18 @@
+= playing around
+:compat mode: true
+
+so here we go... no tags?
+
+```ruby
+require 'sinatra'
+
+get '/hi' do
+  "Hello World!"
+end
+```
+
+```javascript
+class Xyz {
+  gone: any
+}
+```

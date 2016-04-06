@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "ciekawy",
-    "repositoryName": "ciekawy.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"ciekawy","repositoryName":"ciekawy.github.io","branch":"master"},"site":{"url":"https://ciekawy.github.io"},"socialnetwork":{},"theme":{"name":"ghostium","url":"//ciekawy.github.io/themes/ghostium"}}

@@ -11,7 +11,7 @@ get '/hi' do
 end
 ```
 
-```javascript
+```typescript
 class Xyz {
   gone: any
 }

@@ -1,0 +1,119 @@
+circle {
+  stroke: steelblue;
+  fill: white;
+  stroke-width: 12px;
+}
+.link {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 9px;
+}
+.label {
+	font-family: 'Lato', sans-serif;
+	font-size: 36px;
+	height: 74.3px; 
+	/* padding-top: 1px; */
+	padding-left: 450px;
+	border-top: 1px solid #eeeeee;
+	opacity: 0.2;
+}
+.label.even {
+  border-top: 1px solid white;
+  background: #FFEEDD;
+}
+.label.even-more {
+  border-top: 1px solid white;
+  background: #EEFFDD;
+}
+
+.branch-mobile {
+  stroke: steelblue;
+}
+
+.branch-front-end {
+  stroke: orange;
+}
+
+.branch-back-end {
+  stroke: green;
+}
+
+#git-chart {
+	z-index: -2;
+
+  * {
+    /*-webkit-font-smoothing: subpixel-antialiased;*/
+    transition: opacity 1.5s;
+  }
+
+  .label-container {
+    margin-top: 72px; line-height: 75px;
+  }
+  /*-webkit-font-smoothing: subpixel-antialiased;*/
+
+  .center {
+    text-align: center;
+  }
+}
+
+.match-step() {
+  .impress-on-step-& #git-chart .label.step-& {
+      opacity: 1;
+  }      
+  .impress-on-step-& #git-chart .label:not(.step-&) {
+      opacity: 0;
+  }      
+}
+
+1 { .match-step };
+1a { .match-step };
+1b { .match-step };
+
+
+.no-git() {
+  #git-chart svg {
+    opacity: 0;
+  }
+
+  .label {
+    background: none;
+  }
+}
+
+.impress-on-step-1 { .no-git }
+.impress-on-step-1a { .no-git }
+.impress-on-step-1b { .no-git }
+
+/* TODO possibly unify with match-step2 */
+.match-stepX() {
+  .impress-on-step-& #git-chart .label.group-step-& {
+      opacity: 1;
+  }      
+  .impress-on-step-& #git-chart .label:not(.group-step-&) {
+      opacity: 0.2;
+  }      
+}
+
+2 { .match-stepX };
+3 { .match-stepX };
+4 { .match-stepX };
+5 { .match-stepX };
+6 { .match-stepX };
+7 { .match-stepX };
+8 { .match-stepX };
+9 { .match-stepX };
+10 { .match-stepX };
+
+.impress-on-step-1 #git-chart .label.step-1 .extra {
+  opacity: 0;
+  /*display: none;*/
+}
+.impress-on-step-1a #git-chart .label.step-1 .extra {
+  opacity: 0;
+  /*display: none*/
+}
+
+.impress-on-step-2 #git-chart * {
+    opacity: 1;
+}
+       

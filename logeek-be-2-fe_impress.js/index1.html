@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.4/d3.js"></script>
+    <style>
+		path {
+		  fill: none;
+		  stroke: #000;
+		  stroke-width: 3px;
+		}
+
+		circle {
+		  fill: #fff;
+		  stroke: steelblue;
+		  stroke-width: 5px;
+		}
+	</style>
+  </head>
+  <body>af
+    <p>Hello!</p>
+  </body>
+  <script type="text/javascript">
+  	var points = [
+	  [480, 200],
+	  [480, 300],
+	  [380, 400]
+	];
+  	var svg = d3.select("body").append("svg")
+    .attr("width", 960)
+    .attr("height", 500);
+
+    var path = svg.append("path")
+    .data([points])
+    .attr("d", d3.line()
+    	// .tension(0) // Catmull–Rom
+    	.curve(d3.curveCatmullRom));
+
+    svg.selectAll(".point")
+    .data(points)
+  	.enter().append("circle")
+    .attr("r", 8 )
+    .attr("transform", function(d) { return "translate(" + d + ")"; });
+  </script>
+</html>

@@ -1,0 +1,75 @@
+circle {
+  stroke: steelblue;
+  fill: white;
+  stroke-width: 12px;
+}
+.link {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 9px;
+}
+.label {
+	font-family: 'Lato', sans-serif;
+	font-size: 36px;
+	height: 74.3px; 
+	/* padding-top: 1px; */
+	padding-left: 450px;
+	border-top: 1px solid #eeeeee;
+	opacity: 0.2;
+}
+.label.even {
+	border-top: 1px solid white;
+	background: #EEEEEE;
+}
+#git-chart {
+	z-index: -2;
+  /*-webkit-font-smoothing: subpixel-antialiased;*/
+}
+
+#git-chart * {
+  -webkit-font-smoothing: subpixel-antialiased;
+  transition: opacity 1.5s;
+}
+
+#git-chart .label-container {
+  margin-top: 72px; line-height: 75px;
+}
+
+.impress-on-its #git-chart {
+    border: 2px dashed blue;
+}
+
+.impress-on-step-1 #git-chart .label:not(.step-1) {
+    opacity: 0;
+}
+
+.impress-on-step-1 #git-chart .label.step-1 {
+    opacity: 1;
+}
+
+.impress-on-step-1 #git-chart svg {
+    opacity: 0;
+}
+
+.impress-on-step-1a #git-chart svg {
+    opacity: 0;
+}
+
+
+.impress-on-step-1 #git-chart .label.step-1 .extra {
+  /*float: left;*/
+  opacity: 0;
+}
+
+#git-chart .center {
+  text-align: center;
+}
+
+.impress-on-step-2 #git-chart * {
+    opacity: 1;
+}
+
+.impress-on-its-in-3d #git-chart {
+    border: 2px dashed red;
+}
+        

@@ -1,0 +1,256 @@
+conference points 
+
+
+Started my real career with Java 
+- learned at university 
+
+It's own flaws yet promising 
+- Developing better and better
+
+FE Before hard to maintain technology
+
+- modules
+- types
+
+ancient times 
+it all began with HTTP - web services, rest, data communication. most of the software development relies on HTTP well actually 
+its IP and TCP 
+
+CVS *** 1990
+linux *** 1991
+WarGames 1989
+
+Java 1995
+I’ve got interested in java in its early years at my university.
+well designed and structured, lot of promises (been interested in OOP anyway - smalltalk etc)
+supporting designing and implementing layered enterprise apps 
+supporting maintenance, development testing
+OTOH at that time there were maturity issues like being slow, memory leaks, 
+those issues were improving over time and the overall maintainability and manageability benefits were clear
+also all the supporting tools and quickly raising number of tools
+
+Javascript 1995
+pure fronted with the rise of JS has offered dynamic UI 
+without such support for good coding practices 
+FE development skills were pretty low at that time 
+=> JS code of poor quality
+not easily maintainable
+usually backend developers we not keen of working on the JS part
+FE - also mobile devices (WAP, J2ME) in its early stage
+
+Java/backend evolves since 2000+
+*my* first job as a software developer (first perl and java same year)
+user friendly IDEs
+Java mature, stable, growing number libraries, frameworks, dev tools
+Hibernate & Spring
+generics 
+
+web 2.0 - 2005 JS evolves 
+also mobile 
+more lightweight, async, 
+adopting more and more good practices and proven coding standards
+https://trends.google.com/trends/explore?date=2004-02-26%202017-03-26&q=rest%20json,rest%20xml
+SPA concept from 2003 but only in 2009 fully featured SPA frameworks started to be released
+
+now (after 2010)
+backend - still spring, hibernate (+nosql, bigdata, micro services, docker), Java8, cloud computing, continuous delivery
+FE rapid growth, quite often to much choice, dependencies between tools, frameworks and development workflows
+lot of proven tools and frameworks production ready
+lot of joy programming hybrid mobile app with Ionic2, NG2, TypeScript
+
+future
+functional programming
+backend more and more specialized - Big Data, AI, other computing, APIs
+“backed-less” apps with just specialized BAAS 
+
+---------/
+
+20 mins
+15-30 slides?
+http://www.quickanddirtytips.com/business-career/public-speaking/how-to-time-a-presentation
+
+
+War games
+
+Topics
+
+
+Facts
+love open-source and not a big fan of Microsoft’s hermetic overgrown ecosystem
+not a big fan of Apple dev env either
+mobile tech enthusiast
+
+LOVE BIG PICTURE
+
+some code examples - great and nightmares??
+
+think big
+
+enterprise grade applications - how to maintain and develop without the pain
+good practices - know how to proceed, to not invent the wheel and not deal with all the challenges
+IDE support
+Also big fan of dynamic languages, like perls regular expressions - for quick and dirty solutions, one-liners etc...
+
+
+
+http://skillprogramming.com/top-rated/backend-software-development-vs-front-end-278
+
+https://www.engadget.com/2015/10/15/wargames-reboot-interactive-short/ 1986
+
+back-end ancient
+< 1974 IP, TCP 
+--- 1987 perl, cgi-bin !
+1989 HTTP (at the beginning - at least of what most of the known tech is all about these days;)
+--- 1992 atari falcon dsp 56k
+1994 Gang of Four design patterns (C++/Smalltalk)
+1994 HTTP cookie
+1995 SUN Java - applets, heavy  !
+memory leaks
+structure, OOP, refactoring, design patterns
+1995 JavaScript (!, former livescript, 1997 ES1) !
+scripting, object-oriented (prototype-based), imperative, functional, event-driven[1]
+1996 CSS
+1997 Rhino - JS engine in Java
+1997 XML
+1998 legacy EJB
+1999 JSP BE/FE ancient
+1999 J2ME (later)
+2000 Ant
+2001 velocity templating engine BE/FE ancient
+2001 hibernate
+2002 spring with all of its modules including MVC, data, security, boot, …
+2002 J2ME Siemens MT50 mobile phone
+2003 Apache Commons ****
+2004 generics - J2SE 5
+2004 maven
+2004 web services, XML RPC (stateful) mainly at that time
+2004 Scala
+2006 JPA
+2006 EJB3
+2006 Hadoop ****
+
+FE movement
+1998 CSS, DOM
+2001 JsUnit !
+2005 AJAX by Google - publicly 
+2005 JS prototype 
+=> web 2.0 (2004)
+JS strength - functional language (with OO design possible)
+2005 dojo toolkit 
+2006 jQuery
+
+2007 sencha - former ExtJs
+2006 GWT !
+
+Backend
+2009 Spring Annotations
+2009 Google Guava
+2011 Spring Data - rest support, JPA support
+2013 dockerxamarin 
+2014 Java 8 
+
+FE even more
+2000 REST
+2008 WebSocket
+2009 AMD JS, CommonJS, RequireJS --- modules
+2009 ES5
+2009 REST - json take over xml 
+https://trends.google.com/trends/explore?date=2004-02-26%202017-03-26&q=rest%20json,rest%20xml
+
+2009 nodejs - 
+2009 angular.js
+… also in 2009
+2009 BE - NoSQL (Google Bigtable - 2005, Amazon Dynamo 2006 after 2004 scalability issues)
+2009 BE - MongoDB
+2009 PhoneGap/Apache Cordova ! (supporting 10 mobile platforms)
+2010 knockout 
+2010 Backbone.js 
+2010 jasmine -----> testable
+2010 jsdom
+2010 RxJS (reactiveX 2009)
+2011 mocha ------ testing
+2011 phantomjs
+2011 Ember.js 
+2011 twitter Bootstrap 
+2011 browserify
+2011 D3 ****
+2012 istanbul
+
+?
+…
+
+
+FE now:
+2012 TypeScript
+2012 grunt
+2012 webpack
+2012 firebase - BE-less/BE in the cloud
+2012 Elm language 
+2013 gulp
+2013 React 
+2013 ionic (mobile)
+2013 Electron *****
+2014 NativeScript
+2014 Vue.js
+2014 Aurelia ****
+2014 Appium
+2015 HTTP/2 !
+2015 ES6 (modules!)
+2015 Redux
+…
+2015 react native
+2015 Polymer ****
+2015 MobX state Management ***
+2015 AVA testing framework ***
+2016 ES7
+2016 yarn ****
+2016 left-pad fail ***
+2016 Progressive Web Apps
+2016 GraphQL api query language ***
+…
+all the tech stack
+unit testing, code coverage
+…
+… strengths and weaknesses
+
+loving:
+2016 Angular2
+TypeScript
+2016 ionic2
+2010 RxJS (reactiveX 2009)
+…
+...
+back endless - backend almost not needed, just well described services in the cloud
+firebase
+
+Open development world
+mobile
+Cordova/PhoneGap (Xamarin, ? …)
+appium - testing on real devices
+
+FE future
+vuejs
+ELM
+functional approaches
+
+
+General plot
+I’ve got interested in java in its early years at my university. I’ve found it - 2-3 slides
+well designed and structured
+supporting designing and implementing layered enterprise apps 
+supporting maintenance, development testing
+OTOH at that time there were maturity issues like memory leaks, performance etc
+those issues were improving over time and the overall maintainability and manageability benefits were clear
+also all the supporting tools and quickly raising number of tools
+
+OTOH pure fronted with the rise of JS was offering dynamic UI yet without such support for good coding practices also FE development skills were pretty low at that time which was leading to JS code of poor quality not easily maintainable so usually backend developers we not keen of working on the JS part
+
+situation has started to change around 2010 with the rapid of modules approach and lot of other design/archtecture/build stack approach activities. 
+huge amount of proven practices has been introduced to the JS world (examples)
+current situation has extremely changed in compare to what was 10 years ago
+still lot to do yet there is clear direction which even makes sense to move significant part of the logic to the FE
+FE development is thus much more enjoyable
+
+
+questions to audience? 
+
